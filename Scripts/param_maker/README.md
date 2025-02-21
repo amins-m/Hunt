@@ -9,7 +9,7 @@
 param_maker is a tool for making parametrs based on urls and testing them on target 
 
 ## Table of Contents
-- [Installation](#SettingUp)
+- [SettingUp](#SettingUp)
 - [Usage](#usage)
 - [Contact](#contact)
 
@@ -34,6 +34,6 @@ cat site.com.urls | param_maker
 ```
 
 ## Contact
-Maintainer: [Your Name](https://github.com/amins-m)  
+Maintainer: [aminsm](https://github.com/amins-m)  
 
 
