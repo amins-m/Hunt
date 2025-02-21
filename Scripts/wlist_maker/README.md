@@ -9,7 +9,7 @@
 wlist_maker is a tool to make a list to make sure of your fuzzing
 
 ## Table of Contents
-- [Installation](#SettingUp)
+- [SettingUp](#SettingUp)
 - [Usage](#usage)
 - [Contact](#contact)
 
@@ -36,6 +36,6 @@ wlist_maker info
 ```
 
 ## Contact
-Maintainer: [Your Name](https://github.com/amins-m)  
+Maintainer: [aminsm](https://github.com/amins-m)  
 
 
