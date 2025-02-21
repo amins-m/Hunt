@@ -1,0 +1,5 @@
+```sh
+sudo apt update 
+sudo apt-get install p7zip-full
+7z x dom-invader.7z 
+```
