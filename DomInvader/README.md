@@ -1,10 +1,7 @@
 ```sh
-#Clone the repository and then use it simpely1
-
-
-git clone https://github.com/amins-m/Hunt.git
-
-cd Hunt
-
-
+#Run the following commands in your terminal 
+sudo apt update
+sudo apt-get install p7zip-full
+cd DomInvader
+7z x dom-invader.7z 
 ```
