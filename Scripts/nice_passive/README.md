@@ -9,7 +9,7 @@
 nice_passive is a tool to obtain urls of target
 
 ## Table of Contents
-- [Installation](#SettingUp)
+- [SettingUp](#SettingUp)
 - [Usage](#usage)
 - [Contact](#contact)
 
