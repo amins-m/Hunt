@@ -31,6 +31,6 @@ Usage: cat domains.txt | nice_passive
 ```
 
 ## Contact
-Maintainer: [Your Name](https://github.com/amins-m)  
+Maintainer: [aminsm](https://github.com/amins-m)  
 
 
