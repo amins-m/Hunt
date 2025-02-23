@@ -22,7 +22,7 @@ chmod +x param_maker.sh
 #Making file avalable every time
 nano ~/.zshrc
 #Add the following line to the pottom of the ~/.zshrc file 
-source [path to your script]/param_maker.sh
+source [your path to script]/param_maker.sh
 #save the file and exit(ctrl+x -> y -> Enter)
 #run the following command in your terminal
 source ~/.zshrc  #or source ~/.bashrc  (if you are using bashrc)
