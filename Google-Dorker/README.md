@@ -17,5 +17,5 @@ Run the following command in the path(The directory)
 ```
 
 ## Contact
-Maintainer: [Your Name](https://github.com/amins-m)  
+Maintainer: [aminsm](https://github.com/amins-m)  
 
