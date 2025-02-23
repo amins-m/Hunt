@@ -32,7 +32,7 @@ source ~/.zshrc  #or source ~/.bashrc  (if you are using bashrc)
 ```sh
 wlist_maker FileName 
 #example 
-wlist_maker info
+wlist_maker index
 ```
 
 ## Contact
