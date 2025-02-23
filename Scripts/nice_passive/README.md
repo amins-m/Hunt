@@ -20,7 +20,7 @@ cd nice_passive
 #Make the file executable 
 chmod +x nice_passive.py
 #Making file avalable every time 
-alias nice_passive='[Your directory path]/nice_passive.py'
+alias nice_passive='[your path to script]/nice_passive.py'
 source ~/.zshrc  #or source ~/.bashrc  (if you are using bashrc)
 ```
 
