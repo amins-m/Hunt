@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF Upload and Submit</title>
+</head>
+<body>
+    <h2>Upload a PDF</h2>
+    <input type="file" id="pdfInput" accept="application/pdf">
+    <button onclick="readPDF()">Upload</button>
+    <p id="status"></p>
+
+    <script>
+        function readPDF() {
+            const fileInput = document.getElementById("pdfInput");
+            const statusText = document.getElementById("status");
+            if (fileInput.files.length === 0) {
+                alert("Please select a PDF file.");
+                return;
+            }
+            
+            const file = fileInput.files[0];
+            const reader = new FileReader();
+            
+            reader.onload = function(event) {
+                const pdfData = event.target.result;
+                statusText.innerText = "PDF read successfully.";
+                
+                // Send the data to the server
+                sendPDFData(pdfData);
+            };
+            
+            reader.onerror = function() {
+                statusText.innerText = "Error reading file.";
+            };
+            
+            reader.readAsDataURL(file); // Read file as base64
+        }
+
+        function sendPDFData(data) {
+            fetch("https://your-server-endpoint.com/upload", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify({ pdf: data })
+            })
+            .then(response => response.json())
+            .then(result => {
+                document.getElementById("status").innerText = "Upload successful!";
+            })
+            .catch(error => {
+                document.getElementById("status").innerText = "Upload failed.";
+            });
+        }
+    </script>
+</body>
+</html>
