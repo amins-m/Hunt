@@ -1,5 +1,5 @@
 ```
-cd get_sertificate
+cd get_certificate
 ```
 ```
 chmod +x get_certificate.sh
