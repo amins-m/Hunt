@@ -1,10 +1,10 @@
 ```sh
-#Clone the repository and then use it simpely!
+# Clone the repository and then use it simpely!
 
 
-git clone https://github.com/amins-m/Hunt.git
+```git clone https://github.com/amins-m/Hunt.git```
 
-cd Hunt
+```cd Hunt```
 
 
 ```
