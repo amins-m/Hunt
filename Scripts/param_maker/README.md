@@ -6,7 +6,7 @@
 ![GitHub license](https://img.shields.io/github/license/amins-m/Hunt)
 
 ## Description
-param_maker is a tool for making parametrs based on urls and testing them on target 
+param_maker is a tool for making parameters based on URLs and testing them on the target 
 
 ## Table of Contents
 - [SettingUp](#SettingUp)
@@ -19,9 +19,9 @@ param_maker is a tool for making parametrs based on urls and testing them on tar
 cd param_maker
 #Make the file executable 
 chmod +x param_maker.sh
-#Making file avalable every time
+#Making file available every time
 nano ~/.zshrc
-#Add the following line to the pottom of the ~/.zshrc file 
+#Add the following line to the bottom of the ~/.zshrc file 
 source [your path to script]/param_maker.sh
 #save the file and exit(ctrl+x -> y -> Enter)
 #run the following command in your terminal
